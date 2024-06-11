@@ -1,0 +1,166 @@
+ /* background-color: rgba(243,239,266,100); */
+    /* background-color: #e0dfdf; */
+     /* background-color: rgba(149, 53, 246, 0.29); */
+    /* background-color: #ecd7e0; */
+    /* background-color: #b9c9ca; */
+
+body{
+    background: linear-gradient(45deg,#b9c9ca,#96b4b4);
+}
+#hi{
+    background-color: #f2f1f1;
+    height:97vh;
+    width: 43%;
+    border-radius: 10px;
+    margin: auto;
+}
+#re{
+    margin-left: 8%;
+    padding-top: 20%;
+}
+
+.in{
+    border: 1px solid black;
+    box-shadow: 2px 3px 4px 4px rgb(182, 182, 182);
+    border-radius: 4px;
+    width: 290px;
+    height: 3vh;
+    padding-left: 15px;
+}
+#in2{
+    border: 1px solid black;
+    box-shadow: 2px 3px 4px 4px rgb(182, 182, 182);
+    border-radius: 4px;
+    width: 290px;
+    height: 6vh;
+    padding-left: 15px;
+}
+#in1{
+    border: 1px solid black;
+    box-shadow: 2px 3px 4px 4px rgb(182, 182, 182);
+    border-radius: 4px;
+    width: 290px;
+    height: 15vh;
+    padding-left: 15px;
+}
+.sub{
+    margin: auto;
+    background-color: rgba(18, 16, 16, 0.423);
+    width: 100px;
+    height: 5vh;
+    margin-left: 25%;
+    box-shadow: 2px 3px 4px 4px rgb(183, 182, 182);
+    border: 1px solid black;
+    border-radius: 46%;
+}
+.empty{
+    padding-top: 5px;
+}
+
+
+/* @media screen and (min-width: 1120px){
+    .hi{
+    display: flex;
+    }
+}  
+
+@media screen and (min-width: 1050px){
+    .hi{
+    display: flex;
+    }
+}  
+
+@media screen and (min-width: 935px){
+    .hi{
+    display: flex;
+    margin-right: 300px;
+    }
+}  
+
+@media screen and (min-width: 920px){
+    .hi{
+    display: flex;
+    margin-right: 300px;
+    }
+}  
+
+@media screen and (min-width: 890px){
+    .hi{
+    display: flex;
+    margin-right: 300px;
+    }
+}   
+ */
+
+
+ /* For small screens (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+    #hi {
+      width: 90%;
+      height: 90vh;
+    }
+    .in {
+      width: 90%;
+      height: 30px;
+    }
+    #in2 {
+      width: 90%;
+      height: 60px;
+    }
+    #in1 {
+      width: 90%;
+      height: 90px;
+    }
+    .sub {
+      width: 80px;
+      height: 30px;
+    }
+  }
+
+  /* For medium screens (min-width: 481px and max-width: 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    #hi {
+      width: 70%;
+      height: 90vh;
+    }
+    .in {
+      width: 80%;
+      height: 35px;
+    }
+    #in2 {
+      width: 80%;
+      height: 70px;
+    }
+    #in1 {
+      width: 80%;
+      height: 100px;
+    }
+    .sub {
+      width: 90px;
+      height: 35px;
+    }
+}
+
+/* For large screens (min-width: 769px) */
+@media only screen and (min-width: 769px) {
+    #hi {
+      width: 50%;
+      height: 98vh;
+    }
+    .in {
+      width: 70%;
+      height: 28px;
+    }
+    #in2 {
+      width: 70%;
+      height: 60px;
+    }
+    #in1 {
+      width: 70%;
+      height: 120px;
+    }
+    .sub {
+      width: 100px;
+      height: 40px;
+    }
+  }
